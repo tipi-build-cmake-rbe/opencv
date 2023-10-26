@@ -1,5 +1,14 @@
 ## OpenCV: Open Source Computer Vision Library
 
+### Build OpenCV with CMake RE
+
+1. `git clone https://github.com/tipi-build-cmake-rbe/opencv.git`
+2. `cd opencv/`
+3. Ensure branch is `feature/cmake-re-4x` and origin is set to the aforementioned git clone url
+4. `tipi build . -t linux-rbe -j64`
+
+Head to http://127.0.0.1:8088/ to follow your build in a Web UI.
+
 ### Resources
 
 * Homepage: <https://opencv.org>
