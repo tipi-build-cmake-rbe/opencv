@@ -9,6 +9,8 @@
 
 Head to http://127.0.0.1:8088/ to follow your build in a Web UI.
 
+5. Check .tipi.test-args file for test filters and **Run tests** `time tipi build . -t linux-rbe --test opencv_test_core -j64`
+
 ### Resources
 
 * Homepage: <https://opencv.org>
