@@ -1,0 +1,1 @@
+set(CMAKE_BUILD_WITH_INSTALL_RPATH ON CACHE BOOL "Required by OpenCV build" FORCE)
