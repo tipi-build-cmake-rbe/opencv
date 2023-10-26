@@ -1,0 +1,26 @@
+{
+  "u":true,
+  "tipi-build/adapter-goma-client" : {
+    "@" : ":67bb8a0d42e6e94b6c5234e151b57480ad094810",
+    "u" : true,
+    "as_target_dep" : false,
+    "provides_host_tools" : {},
+
+    "requires" : {
+      "tipi-build/adapter-gntool" : {
+        "@" : ":1d110583e82e9ee7ef38297979cfe62dc9bb1d74", 
+        "u" : true,
+        "as_target_dep" : false,
+        "provides_host_tools" : {},
+        "requires" : {
+          "ninja-build/ninja" : {
+            "@" : "v1.11.1",
+            "u" : true,
+            "as_target_dep" : false,
+            "provides_host_tools" : {}
+          }
+        }
+      }
+    }
+  }
+}

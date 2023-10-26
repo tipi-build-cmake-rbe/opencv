@@ -1,5 +1,6 @@
 # ignore dot files/directories
 .*
+!.tipi
 !.gitignore
 
 *.autosave
